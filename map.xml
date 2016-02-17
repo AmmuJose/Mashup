@@ -1,0 +1,25 @@
+<markers>
+<marker name="animalKingdom" park="Animal Kingdom" street="W Access Rd and Black Lake Rd" city="Bay Lake" state="FL 32830" phone="(407) 934-7639" 
+	webaddress="http://disneyworld.disney.go.com/parks/animal-kingdom/" hours="9:00 AM - 8:00 PM" lat="28.358172104519987" lng="-81.5899658203125"/>
+
+<marker name="hollywoodStudios" park="Hollywood Studios" street="351 South Studio Drive" city="Lake Buena Vista" state="FL 32830" phone="(407) 824-4321" 
+	webaddress="http://disneyworld.disney.go.com/parks/hollywood-studios/" hours="9:00 AM - 7:00 PM" lat="28.357869981590788" lng="-81.55820846557617"/>
+	
+<marker name="magicKingdom" park="Magic Kingdom" street="4600 N World Dr" city="Lake Buena Vista" state="FL 32830" phone="(407) 939-6244" 
+	webaddress="http://disneyworld.disney.go.com/parks/magic-kingdom/" hours="8:00 AM - 1:00 AM" lat="28.410048956282693" lng="-81.58430099487304"/>
+	
+<marker name="epcot" park="Epcot" street="1510 North Avenue of the Stars" city="Lake Buena Vista" state="FL 32830" phone="(407) 824-4321" 
+	webaddress="http://disneyworld.disney.go.com/parks/epcot/" hours="9:00 AM - 9:00 PM" lat="28.374107869869235" lng="-81.54945373535156"/>
+	
+<marker name="universalStudios" park="Universal Studios" street="6000 Universal Blvd" city="Orlando" state="FL 32819" phone="(407) 363-8000" 
+	webaddress="http://www.universalorlando.com/Theme_Parks/Universal_Studios_Orlando/universal_studios_florida.aspx" hours="9.00 AM and closing times vary." lat="28.474934753122504" lng="-81.46630525588989"/>
+	
+<marker name="islandsOfAdventure" park="Islands Of Adventure" street="6000 Universal Blvd" city="Orlando" state="FL 32819" phone="(407) 363-8000" 
+	webaddress="http://www.universalorlando.com/Amusement_Parks/Islands_of_Adventure/islands_of_adventure.aspx" hours="9.00 AM and closing times vary." lat="28.474934753122504" lng=" -81.46630525588989"/>	
+	
+<marker name="seaWorld" park="Sea World" street="7007 SeaWorld Drive" city="Orlando" state="FL 32821" phone="1-888-800-5447" 
+	webaddress="http://www.seaworldparksandentertainment.com/index.html" hours="9.00 AM and closing times vary." lat="28.4095488094613" lng=" -81.46222829818725"/>
+	
+<marker name="aquatica" park="Aquatica" street="5800 Water Play Way" city="Orlando" state="FL 32821" phone="407-351-3600" 
+	webaddress="http://www.aquaticabyseaworld.com" hours="9.00 AM - 12:00 PM." lat="28.4157225" lng="-81.4589318"/>
+</markers>
