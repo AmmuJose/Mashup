@@ -4,7 +4,7 @@
 <title>Orlando Theme Parks</title>
 <link href = "prjct.css" rel = "stylesheet" type="text/css"/>
 <script type="text/javascript" src="ajaxprjct.js"></script>
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyBAYDNzYb1PCz0z9jziYNytRFfIy1TxL3Y"></script>
 <script type="text/javascript" src="https://api.flickr.com/services/feeds/photoset.gne?nsid=21980431@N07&set=72157626477149192&format=json"></script>
 
 </head>
