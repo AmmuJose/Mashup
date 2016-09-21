@@ -35,7 +35,7 @@ function getImg(){
 	if(subdivValue.length > 0){
 		var script = document.createElement("script");
 		script.type = "text/javascript";
-		script.src = "http://api.flickr.com/services/feeds/photoset.gne?nsid=21980431@N07&set=72157626477149192&format=json";
+		script.src = "https://api.flickr.com/services/feeds/photoset.gne?nsid=21980431@N07&set=72157626477149192&format=json";
 		document.body.appendChild(script);
 	}	
 }
