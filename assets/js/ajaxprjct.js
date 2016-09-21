@@ -1,9 +1,10 @@
 window.onload = initAll;
 var xhr = false;
-var optionValue;
-var imgDiv = "";
+var optionValue = "";
+var imgDiv = " ";
 var subdiv = "";
-var subdivValue="";
+var subdivValue= "";
+var parkIndex = "";
 
 
 function initAll()
@@ -59,7 +60,7 @@ function jsonFlickrFeed(flickrData) {
 function populateParks()
 {
 	
-	var parkIndex = this.options[this.selectedIndex].value;
+	parkIndex = this.options[this.selectedIndex].value;
 	var disney = new Array("Select a Walt Disney Park", "Magic Kingdom", "Animal Kingdom", "Epcot", "Hollywood Studios");
 	var disneyIndex = new Array("", "magicKingdom", "animalKingdom", "epcot", "hollywoodStudios");
 	
@@ -89,15 +90,18 @@ function populateParks()
 		document.getElementById("subdiv").options.length = 0;	
 		
 		if(parkIndex == "disney"){
-		display(disney, disneyIndex);		
+			display(disney, disneyIndex);	
+			parkIndex = "Disney";	
 		}
 		
 		if(parkIndex == "universal"){			
-		display(universal, universalIndex);
+			display(universal, universalIndex);
+			parkIndex = "Universal Studios";
 		}
 		
 		if(parkIndex == "seaworld"){			
-		display(seaworld, seaworldIndex);
+			display(seaworld, seaworldIndex);
+			parkIndex = "Seaworld";
 		}
 	}//End else		
 	
@@ -157,6 +161,7 @@ function showMap(){
 			var ln = xmlResp.length;
 			for(var i = 0; i < ln; i++){
 				if(xmlResp[i].getAttribute("name") == optionValue){
+					var name = xmlResp[i].getAttribute("name");
 					var lat = xmlResp[i].getAttribute("lat");
 					var lng = xmlResp[i].getAttribute("lng");
 					var park = xmlResp[i].getAttribute("park");
@@ -169,7 +174,7 @@ function showMap(){
 					i = ln + 1;
 					}
 				var outMsg =  '<p><b>Address: </b><br/>' + street + ',<br/>' + city + ', ' + state;
-				outMsg += '<br/>'+ phone + '<br/><br/><b><a href="' + webaddress + '" target="_blank">Website</a></b></p>';
+				outMsg += '<br/>'+ phone + '<br/><br/><b><a href="' + webaddress + '" target="_blank" style="text-decoration:none;"> Get Your ' +  parkIndex + ' Tickets </a></b></p>';
 				var outTime = '<h4>' + park + '</h4><p><b>Bussiness Hours: </b><br/>' + hours + '</p>';
 				document.getElementById("info").innerHTML = outMsg;
 				document.getElementById("time").innerHTML = outTime;
