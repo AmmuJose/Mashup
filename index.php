@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -93,6 +92,3 @@
 </body>	
 
 </html>
-=======
-<?php include_once("orlandothemepark.php"); ?>
->>>>>>> 13ee92bbd4818d19cec10d500724fdaa03bbbf13
